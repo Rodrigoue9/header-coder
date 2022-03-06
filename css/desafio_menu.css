@@ -1,0 +1,144 @@
+
+*{
+
+    margin: 0;
+   
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+header{
+    background-color: rgb(66, 66, 66);
+    border-bottom: 8px solid rgb(119, 158, 180);
+width: 100%;
+ height: 80px; 
+
+
+    
+}
+
+
+.cabecalho .logo .imagem-logo{
+    width: 300px;
+    height: 60px;
+    background-position: center;
+
+}
+.imagem-logo{
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.menu-toggle{
+    display: none;
+    float: right;
+    right: 10px;
+    position: relative;
+    width: 60px;
+    background-color: rgb(75, 75, 75);
+    border-radius: 10px;
+    height: 40px;
+  
+}
+
+.menu{
+    font-size: 21px;
+}
+.menu ul li{
+float: left;
+position: relative;
+bottom: 40px;
+left: 300px;
+display: block;
+}
+.menu ul li a{
+padding: 15px 20px 15px 20px;
+}
+
+.menu ul li a:hover{ 
+    background-color: rgb(119, 158, 180);
+    color: black;
+
+}
+
+
+.autenticacao{
+    float: right;
+    position: relative;
+    right: 50px;
+    bottom: 40px;
+}
+.autenticacao .botao1{
+    position: relative;
+
+    right: 20px;
+}
+.autenticacao .botao-destaque{
+    background-color: red;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    position: relative;
+
+}
+
+@media (max-width: 768px){
+
+.autenticacao{
+    display: none;
+}
+.autenticacao .botao1{
+    display: none;
+   
+}
+.autenticacao .botao-destaque{
+  display: none;
+
+
+
+}
+.cabecalho .logo .imagem-logo{
+    width: 200px;
+    height: 60px;
+
+
+}
+.menu ul li{
+    bottom: 40px;
+    left: 200px;
+    font-size: 20px;
+    display: block;
+    }
+    .menu ul li a{
+    padding: 5px 10px 5px 10px;
+    }
+}
+@media (max-width: 360px){
+
+.menu{
+    display: none;
+}
+
+}
+@media (max-width: 359px){
+    .menu-toggle{
+        display: block;
+        bottom: 40px;
+     
+    }
+    .cabecalho .logo .imagem-logo{
+        width: 200px;
+        height: 60px;
+    
+    
+    }
+    
+    header{
+        background-color: rgb(66, 66, 66);
+        border-bottom: 4px solid rgb(119, 158, 180);
+    width: 100%;
+     height: 80px; 
+    }
+}

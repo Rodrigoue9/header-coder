@@ -1,0 +1,13 @@
+.selector{
+color:rgb(255, 0, 234);
+font-size: 30px;
+text-align: center;
+border: solid 5px navy;
+font-family:sans-serif;
+width: calc(100% - 100px);
+background-color: rgb(16, 146, 146);
+}
+.selector:hover{
+    background-color: aquamarine;
+  
+}
